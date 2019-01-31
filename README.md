@@ -1,7 +1,13 @@
 # GiveUpBuddy_infra
 GiveUpBuddy Infra repository
 
-Homework 4
+#Homework 5
+С помощью Packer созданы шаблоны для развертывания инстансов в GCP:
+- Fry (с предустановленным окруженим для запуска Reddit application)
+- Bake (полностью готовый к работе инстанс с рабочим приложением)
+Создан shell-скрипт для создания ВМ из bake-шаблона
+
+#Homework 4
 testapp_IP = 35.233.43.91
 testapp_port = 9292
 
@@ -17,9 +23,9 @@ gcloud compute instances create reddit-app\
   --restart-on-failure \
   --metadata-from-file startup-script=startup-script.sh
 
-#Запусается из папки со скриптом или указывается полный путь до startup-script.sh
+Запусается из папки со скриптом или указывается полный путь до startup-script.sh
 
-Homework 3
+#Homework 3
 1. Для подключения к someinternalhost в одну строку:
 ssh -A -t giveup@34.76.28.166 ssh 10.132.0.3
 
