@@ -1,6 +1,24 @@
 # GiveUpBuddy_infra
 GiveUpBuddy Infra repository
- 
+
+Homework 4
+testapp_IP = 35.233.43.91
+testapp_port = 9292
+
+Для запуска настройки окружения при создании машины написан startup-scrip.sh
+Команда для создания инстанса будет такая:
+
+gcloud compute instances create reddit-app\
+  --boot-disk-size=10GB \
+  --image-family ubuntu-1604-lts \
+  --image-project=ubuntu-os-cloud \
+  --machine-type=g1-small \
+  --tags puma-server \
+  --restart-on-failure \
+  --metadata-from-file startup-script=startup-script.sh
+
+#Запусается из папки со скриптом или указывается полный путь до startup-script.sh
+
 Homework 3
 1. Для подключения к someinternalhost в одну строку:
 ssh -A -t giveup@34.76.28.166 ssh 10.132.0.3
@@ -22,3 +40,4 @@ host someinternalhost
 	
 bastion_IP = 34.76.28.166
 someinternalhost_IP = 10.132.0.3
+
