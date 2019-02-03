@@ -1,6 +1,9 @@
 # GiveUpBuddy_infra
 GiveUpBuddy Infra repository
 
+#Homework 6
+Создан файл конфигурации для Terraform
+
 #Homework 5
 С помощью Packer созданы шаблоны для развертывания инстансов в GCP:
 - Fry (с предустановленным окруженим для запуска Reddit application)
