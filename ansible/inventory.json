@@ -1,7 +1,4 @@
 {
-  "_meta": {
-    "hostvars": {}
-  },
   "all": {
     "children": {"app", "db"}
   },
