@@ -1,6 +1,10 @@
 # GiveUpBuddy_infra
 GiveUpBuddy Infra repository
 
+#Homework Ansible-2
+Созданы плейбуки для сервера баз данных, сервера приложений и деплоя приложения. Обновлены шаблоны packer для образов reddit-app-base и reddit-db-base
+Задание со звездой: настроено dynamic inventory (plugin gcp_compute). Для использования необходимо изменить inventory file в настройках ansible на <filename>.gcp.yml
+
 #Homework 6
 Создан файл конфигурации для Terraform
 
