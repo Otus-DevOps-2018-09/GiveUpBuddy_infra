@@ -1,0 +1,9 @@
+plugin: gcp_compute
+projects:
+  - infinite-deck-229514
+filters:
+groups:
+  app: "'-app' in name"
+  db: "'-db' in name"
+auth_kind: serviceaccount
+service_account_file: /home/giveup/cred.json

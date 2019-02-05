@@ -1,0 +1,196 @@
+{
+    "_meta": {
+        "hostvars": {
+            "34.76.110.227": {
+                "cpuPlatform": "Intel Sandy Bridge", 
+                "creationTimestamp": "2019-02-04T22:13:45.267-08:00", 
+                "deletionProtection": false, 
+                "disks": [
+                    {
+                        "autoDelete": true, 
+                        "boot": true, 
+                        "deviceName": "persistent-disk-0", 
+                        "guestOsFeatures": [
+                            {
+                                "type": "VIRTIO_SCSI_MULTIQUEUE"
+                            }
+                        ], 
+                        "index": 0, 
+                        "interface": "SCSI", 
+                        "kind": "compute#attachedDisk", 
+                        "licenses": [
+                            "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1604-xenial"
+                        ], 
+                        "mode": "READ_WRITE", 
+                        "source": "https://www.googleapis.com/compute/v1/projects/infinite-deck-229514/zones/europe-west1-b/disks/reddit-db", 
+                        "type": "PERSISTENT"
+                    }
+                ], 
+                "id": "5777386465981142903", 
+                "kind": "compute#instance", 
+                "labelFingerprint": "42WmSpB8rSM=", 
+                "machineType": "g1-small", 
+                "machineType_selflink": "https://www.googleapis.com/compute/v1/projects/infinite-deck-229514/zones/europe-west1-b/machineTypes/g1-small", 
+                "metadata": {
+                    "fingerprint": "ZMhVGKSqEsg=", 
+                    "items": [
+                        {
+                            "key": "ssh-keys", 
+                            "value": "giveup:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAQ+3jZ6X5Dy7NajcAhbsSPtmH9eEhNk03/hvLJdRE3cRYIBStw6tU3N/PdDolYam+NvJf8hzrMKfb6OeNGi+Er8hd3cK7nYjO6ZB3+tlzEiEfpmnnimqzPMOvoLwMXDG34WliXyk0v/ce3Z7DzNdjtFPYfKpdTgPFpv6piVOYrL9MMMTHuuzDWI6sCyBqlIjPC8kIBci1doCfyx04M3eaOL/0ePGNrFlY5C+l+k9xvvkWRPGByduN/8uKZZcfuetcqQ/qfBKrz8wlq5jcXP85zb2Hl6C4cLGTojnicc6XJFjOK3S971qDLPzB29Im4/xA6Tsj54fNT3gvJUikeNwh giveup\n"
+                        }
+                    ], 
+                    "kind": "compute#metadata"
+                }, 
+                "name": "reddit-db", 
+                "networkInterfaces": [
+                    {
+                        "accessConfigs": [
+                            {
+                                "kind": "compute#accessConfig", 
+                                "name": "external-nat", 
+                                "natIP": "34.76.110.227", 
+                                "networkTier": "PREMIUM", 
+                                "type": "ONE_TO_ONE_NAT"
+                            }
+                        ], 
+                        "fingerprint": "7WJKmXV2KCg=", 
+                        "kind": "compute#networkInterface", 
+                        "name": "nic0", 
+                        "network": {
+                            "name": "default", 
+                            "region": "global", 
+                            "selfLink": "https://www.googleapis.com/compute/v1/projects/infinite-deck-229514/global/networks/default"
+                        }, 
+                        "networkIP": "10.132.0.54", 
+                        "subnetwork": {
+                            "name": "default", 
+                            "region": "europe-west1", 
+                            "selfLink": "https://www.googleapis.com/compute/v1/projects/infinite-deck-229514/regions/europe-west1/subnetworks/default"
+                        }
+                    }
+                ], 
+                "project": "infinite-deck-229514", 
+                "scheduling": {
+                    "automaticRestart": true, 
+                    "onHostMaintenance": "MIGRATE", 
+                    "preemptible": false
+                }, 
+                "selfLink": "https://www.googleapis.com/compute/v1/projects/infinite-deck-229514/zones/europe-west1-b/instances/reddit-db", 
+                "startRestricted": false, 
+                "status": "RUNNING", 
+                "tags": {
+                    "fingerprint": "NQyRUqL7UTU=", 
+                    "items": [
+                        "reddit-db"
+                    ]
+                }, 
+                "zone": "europe-west1-b", 
+                "zone_selflink": "https://www.googleapis.com/compute/v1/projects/infinite-deck-229514/zones/europe-west1-b"
+            }, 
+            "35.195.112.73": {
+                "cpuPlatform": "Intel Sandy Bridge", 
+                "creationTimestamp": "2019-02-04T22:13:57.421-08:00", 
+                "deletionProtection": false, 
+                "disks": [
+                    {
+                        "autoDelete": true, 
+                        "boot": true, 
+                        "deviceName": "persistent-disk-0", 
+                        "guestOsFeatures": [
+                            {
+                                "type": "VIRTIO_SCSI_MULTIQUEUE"
+                            }
+                        ], 
+                        "index": 0, 
+                        "interface": "SCSI", 
+                        "kind": "compute#attachedDisk", 
+                        "licenses": [
+                            "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1604-xenial"
+                        ], 
+                        "mode": "READ_WRITE", 
+                        "source": "https://www.googleapis.com/compute/v1/projects/infinite-deck-229514/zones/europe-west1-b/disks/reddit-app", 
+                        "type": "PERSISTENT"
+                    }
+                ], 
+                "id": "6135527759976634187", 
+                "kind": "compute#instance", 
+                "labelFingerprint": "42WmSpB8rSM=", 
+                "machineType": "g1-small", 
+                "machineType_selflink": "https://www.googleapis.com/compute/v1/projects/infinite-deck-229514/zones/europe-west1-b/machineTypes/g1-small", 
+                "metadata": {
+                    "fingerprint": "ZMhVGKSqEsg=", 
+                    "items": [
+                        {
+                            "key": "ssh-keys", 
+                            "value": "giveup:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAQ+3jZ6X5Dy7NajcAhbsSPtmH9eEhNk03/hvLJdRE3cRYIBStw6tU3N/PdDolYam+NvJf8hzrMKfb6OeNGi+Er8hd3cK7nYjO6ZB3+tlzEiEfpmnnimqzPMOvoLwMXDG34WliXyk0v/ce3Z7DzNdjtFPYfKpdTgPFpv6piVOYrL9MMMTHuuzDWI6sCyBqlIjPC8kIBci1doCfyx04M3eaOL/0ePGNrFlY5C+l+k9xvvkWRPGByduN/8uKZZcfuetcqQ/qfBKrz8wlq5jcXP85zb2Hl6C4cLGTojnicc6XJFjOK3S971qDLPzB29Im4/xA6Tsj54fNT3gvJUikeNwh giveup\n"
+                        }
+                    ], 
+                    "kind": "compute#metadata"
+                }, 
+                "name": "reddit-app", 
+                "networkInterfaces": [
+                    {
+                        "accessConfigs": [
+                            {
+                                "kind": "compute#accessConfig", 
+                                "name": "external-nat", 
+                                "natIP": "35.195.112.73", 
+                                "networkTier": "PREMIUM", 
+                                "type": "ONE_TO_ONE_NAT"
+                            }
+                        ], 
+                        "fingerprint": "-V6MJ2H3fiM=", 
+                        "kind": "compute#networkInterface", 
+                        "name": "nic0", 
+                        "network": {
+                            "name": "default", 
+                            "region": "global", 
+                            "selfLink": "https://www.googleapis.com/compute/v1/projects/infinite-deck-229514/global/networks/default"
+                        }, 
+                        "networkIP": "10.132.0.55", 
+                        "subnetwork": {
+                            "name": "default", 
+                            "region": "europe-west1", 
+                            "selfLink": "https://www.googleapis.com/compute/v1/projects/infinite-deck-229514/regions/europe-west1/subnetworks/default"
+                        }
+                    }
+                ], 
+                "project": "infinite-deck-229514", 
+                "scheduling": {
+                    "automaticRestart": true, 
+                    "onHostMaintenance": "MIGRATE", 
+                    "preemptible": false
+                }, 
+                "selfLink": "https://www.googleapis.com/compute/v1/projects/infinite-deck-229514/zones/europe-west1-b/instances/reddit-app", 
+                "startRestricted": false, 
+                "status": "RUNNING", 
+                "tags": {
+                    "fingerprint": "M-ggixIz-AU=", 
+                    "items": [
+                        "reddit-app"
+                    ]
+                }, 
+                "zone": "europe-west1-b", 
+                "zone_selflink": "https://www.googleapis.com/compute/v1/projects/infinite-deck-229514/zones/europe-west1-b"
+            }
+        }
+    }, 
+    "all": {
+        "children": [
+            "app", 
+            "db", 
+            "ungrouped"
+        ]
+    }, 
+    "app": {
+        "hosts": [
+            "35.195.112.73"
+        ]
+    }, 
+    "db": {
+        "hosts": [
+            "34.76.110.227"
+        ]
+    }, 
+    "ungrouped": {}
+}
