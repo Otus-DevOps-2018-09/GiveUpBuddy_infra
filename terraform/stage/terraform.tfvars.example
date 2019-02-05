@@ -1,0 +1,7 @@
+project = "infinite-deck-123456"
+
+public_key_path = "~/.ssh/appuser.pub"
+
+disk_image = "reddit-base"
+
+private_key_path = "~/.ssh/appuser"
