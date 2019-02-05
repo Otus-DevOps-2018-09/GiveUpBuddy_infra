@@ -1,6 +1,9 @@
 # GiveUpBuddy_infra
 GiveUpBuddy Infra repository
 
+#Homework 8
+Выполнены настройки ansible (ansible.cfg, inventory в ini+yml+json). Создан playbook clone.yml
+
 #Homework 6
 Создан файл конфигурации для Terraform
 
